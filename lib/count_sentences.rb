@@ -33,7 +33,7 @@ end
  			sentences << char
  		end
  	end
-
+sentences.length 
 end 
 end
 
