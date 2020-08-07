@@ -31,6 +31,7 @@ end
  self.split("").each do |char|
  		if char == "!" || char == "?"|| char == "."
  			sentences << char
+ 			
  		end
  	end
 sentences.length 
