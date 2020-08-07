@@ -28,8 +28,13 @@ end
 
   def count_sentences
  sentences = []
- 
-
-
-  end
+ self.split("").each do |char|
+ 		if char == "!" || char == "?"|| char == "."
+ 			sentences << char
+ 		end
+ 	end
+ 	sentences.length
 end
+
+
+ 
