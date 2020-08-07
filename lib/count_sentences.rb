@@ -27,7 +27,7 @@ end
   end
 
   def count_sentences
- array
+ array =
 
 binding.pry
   end
