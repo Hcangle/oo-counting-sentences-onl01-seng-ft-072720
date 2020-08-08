@@ -34,7 +34,6 @@ end
  		 
  		end
  	end
-sentences.count 
 sentences.length 
 end 
 end
