@@ -28,7 +28,7 @@ end
 
   def count_sentences
  sentences = []
- self.split("").each do |char|
+ self.split("").each do |char|.count 
  		if char == "!" || char == "?"|| char == "."
  			sentences << char
  		 
